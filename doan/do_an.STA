@@ -1,0 +1,99 @@
+
+ROM used:   1502/8192 (18%)
+            1502/8192 (18%) including unused fragments
+
+            1.2 Average locations per line
+            4.4 Average locations per statement
+
+RAM used:   38/368 (10%) at main() level
+            51/368 (14%) worst case
+
+Stack used: 8 worst case (8 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  172   130  38  do_an.c
+   28    14   4  do_an.h
+  810     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\16F887.h
+  118    62  18  LibraryLCD.h
+  105    62  18  LibraryRealtime.h
+   73    70  21  LibraryKeypad.h
+----- -----
+ 1306   338 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   1    1             @delay_ms1
+0     16   1    1             @I2C_WRITEU_129
+0     16   1    1             @I2C_READU_129
+0     64   4    0             @const716
+0     68   5    0             @const720
+0     33   2    1    167  2.3  setpin
+0     47   3    1    282  1.4  lcd_command
+0     47   3    1    282  1.4  lcd_data
+0     26   2    0    149  1.3  lcd_setup
+0     48   3    3    362  5.1  hangcot
+0      9   1    0             @const732
+0     86   6    4             @PSTRINGC7_726
+0     70   5    5    279  4.0  lcd_hienthi_so_z_toado_xy
+ Inline         2             @MUL88
+0     68   5    0    351  1.9  doc_thoi_gian_tu_realtime
+0     54   4    1    325  2.8  hien_thi_thoi_gian_ds1307
+0      8   1    0             @const775
+ Inline         0     17  0.8  Motor_start
+0      5   0    0     17  0.8  Motor_stop
+0    163  11    1   1679  9.8  KEYPRESS
+0     23   2    0    188  3.1  KEY_4X4
+0     54   4    2    353  3.4  Init
+0    194  13    1    550  5.7  MAIN
+ Inline         0    123  2.1  cbvantay
+0      9   1    0     67  2.6  hienthithoigian
+0     23   2    0     80  1.5  ScreenIntro
+0     10   1    0             @const802
+0      5   0    0             @const803
+0     11   1    0     33  0.9  ScreenMain
+0      8   1    0             @const804
+0     14   1    2     68  3.0  nhapdulieu
+0     39   3    1    169  2.5  xuatdulieu
+0      1   0    0             @const805
+0    126   8    1   1094  4.8  xoa1kitu
+0      1   0    0             @const806
+0      1   0    0             @const807
+0      1   0    0             @const808
+0      1   0    0             @const809
+0      1   0    0             @const810
+0      1   0    0             @const811
+0      1   0    0             @const812
+0     11   1    0             @goto9593
+0     14   1    0     61  1.4  xoatoanbo
+0      6   0    0             @const814
+ Inline         0    300  3.7  nhapxuatdulieu
+0     72   5    1    453  3.7  PasswordCorrect
+0     11   1    0             @const815
+ Inline         0    152  1.7  PasswordIncorrect
+0     12   1    0             @const817
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               25
+    Statements              338
+    Comments                198
+    Volume (V)              13493
+    Difficulty (D)          71.1
+    Effort to implement (E) 959952
+    Time to implement (T)   14 hours, 49 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   52
+    Maintainability (MI)    49
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1498  546  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

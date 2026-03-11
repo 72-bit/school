@@ -1,0 +1,163 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021-022 @sprintf_string
+023     nam_ds13
+024     thang_ds13
+025     ngay_ds13
+026     thu_ds13
+027     gio_ds13
+028     phut_ds13
+029     giay_ds13
+02A     ma_ds13
+02B     control_ds13
+02C     giaytam
+02D     HANG
+02E     COT
+02F     MP
+030     MPT
+031-036 actual_password
+037-03C given_password
+03D     count
+03E     id
+03F     pass
+040     Init.m
+040     PasswordCorrect.i
+040     KEYPRESS.@SCRATCH1
+040     MAIN.@SCRATCH1
+040     nhapdulieu.@SCRATCH1
+040     xuatdulieu.@SCRATCH1
+040     xoa1kitu.@SCRATCH1
+041     @I2C_WRITEU_129.P1
+041     @I2C_READU_129.P2
+041     hien_thi_thoi_gian_ds1307.@SCRATCH1
+041     Init.@SCRATCH1
+041     nhapdulieu.@SCRATCH2
+042     lcd_hienthi_so_z_toado_xy.lcd_so
+043     lcd_hienthi_so_z_toado_xy.x1
+044     lcd_hienthi_so_z_toado_xy.y1
+045     lcd_hienthi_so_z_toado_xy.i
+046     @MUL88.P1
+046     lcd_hienthi_so_z_toado_xy.@SCRATCH1
+047     @MUL88.P1
+047     hangcot.x
+048     hangcot.y
+049     @delay_ms1.P1
+049     hangcot.@SCRATCH1
+049     @PSTRINGC7_726.@SCRATCH1
+04A     lcd_command.n
+04A     @PSTRINGC7_726.@SCRATCH2
+04B     @PSTRINGC7_726.@SCRATCH3
+04C     lcd_data.n
+04C     @PSTRINGC7_726.@SCRATCH4
+04D     setpin.n
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  lcd_so_x.call
+000008  lcd_so_x.data
+000044  lcd_ma_8doan.call
+000048  lcd_ma_8doan.data
+000088  MAQUETCOT.call
+00008C  MAQUETCOT.data
+000090  @const732.call
+000099  @const802.call
+0000A3  @const803.call
+0000A8  @const804.call
+0000B0  @const805.call
+0000B1  @const806.call
+0000B2  @const807.call
+0000B3  @const808.call
+0000B4  @const809.call
+0000B5  @const810.call
+0000B6  @const811.call
+0000B7  @const812.call
+0000B8  @const814.call
+0000BE  @const815.call
+0000C9  @const817.call
+0000D5  setpin
+0000F6  lcd_command
+000125  @delay_ms1
+000139  lcd_setup
+000153  lcd_data
+000182  Init
+0001B8  Motor_stop
+0001BD  @PSTRINGC7_726
+000213  ScreenIntro
+00022A  @I2C_WRITEU_129
+00023A  @I2C_READU_129
+00024A  doc_thoi_gian_tu_realtime
+00028E  hangcot
+0002BE  lcd_hienthi_so_z_toado_xy
+0002D7  @MUL88
+000304  hien_thi_thoi_gian_ds1307
+00033A  ScreenMain
+000345  hienthithoigian
+00034E  KEYPRESS
+0003F1  KEY_4X4
+000408  nhapdulieu
+000416  xuatdulieu
+00043D  xoa1kitu
+0004BB  @goto9593
+0004C6  xoatoanbo
+0004D4  PasswordCorrect
+0004E6  Motor_start
+00051C  @cinit1
+00051C  MAIN
+000553  @cinit2
+00058D  nhapxuatdulieu
+0005A7  PasswordIncorrect
+0005C8  cbvantay
+
+Project Directory:
+    C:\Users\PHUONG\Desktop\03052025\
+
+Project Files:
+    do_an.c                                                 [12-May-25 18:11  CRC=C4E2DDB4]
+    do_an.h                                                 [12-May-25 18:11  CRC=7634C7B8]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\16F887.h   [07-Mar-23 19:19  CRC=A824942D]
+    LibraryLCD.h                                            [12-May-25 18:11  CRC=FB0FC68A]
+    LibraryRealtime.h                                       [12-May-25 18:11  CRC=E550D44E]
+    LibraryKeypad.h                                         [12-May-25 18:11  CRC=817AEF9B]
+
+Source signature=C692B3A7
+Program memory checksum=0000
+Hex file CRC=0BBE
+
+Units:
+    C:\Users\PHUONG\Desktop\03052025\do_an (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   do_an.xsym
+    Errors:      do_an.err
+    Ext Symbols: do_an.esym
+    INHX8:       do_an.hex
+    Symbols:     do_an.sym
+    List:        do_an.lst
+    Debug/COFF:  do_an.cof
+    Project:     do_an.ccspjt
+    Call Tree:   do_an.tre
+    Statistics:  do_an.STA

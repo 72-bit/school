@@ -1,0 +1,182 @@
+ÀÄdo_an
+   ÀÄMAIN  0/194  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄInit  0/54  Ram=2
+      ³  ÃÄlcd_setup  0/26  Ram=0
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÃÄsetpin  0/33  Ram=1
+      ³  ³  ³  ÀÄsetpin  0/33  Ram=1
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@const720  0/68  Ram=0
+      ³  ÀÄlcd_data  0/47  Ram=1
+      ³     ÃÄsetpin  0/33  Ram=1
+      ³     ÀÄsetpin  0/33  Ram=1
+      ÃÄMotor_stop  0/5  Ram=0
+      ÃÄScreenIntro  0/23  Ram=0
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÃÄlcd_data  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄlcd_data  0/47  Ram=1
+      ³  ³     ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³     ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄlcd_command  0/47  Ram=1
+      ³  ÀÄ*
+      ÃÄdoc_thoi_gian_tu_realtime  0/68  Ram=0
+      ³  ÃÄ@I2C_WRITEU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_WRITEU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_WRITEU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÃÄ@I2C_READU_129  0/16  Ram=1
+      ³  ÀÄ@I2C_READU_129  0/16  Ram=1
+      ÃÄhien_thi_thoi_gian_ds1307  0/54  Ram=1
+      ³  ÃÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³  ³  ÃÄhangcot  0/48  Ram=3
+      ³  ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_setup  0/26  Ram=0
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÃÄhangcot  0/48  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@MUL88  (Inline)  Ram=2
+      ³  ³  ÃÄ@const716  0/64  Ram=0
+      ³  ³  ÀÄlcd_data  0/47  Ram=1
+      ³  ³     ÀÄ*
+      ³  ÃÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_hienthi_so_z_toado_xy  0/70  Ram=5
+      ³     ÀÄ*
+      ÃÄScreenMain  0/11  Ram=0
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³     ÀÄ*
+      ÃÄhienthithoigian  0/9  Ram=0
+      ³  ÃÄdoc_thoi_gian_tu_realtime  0/68  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÀÄhien_thi_thoi_gian_ds1307  0/54  Ram=1
+      ³     ÀÄ*
+      ÃÄKEY_4X4  0/23  Ram=0
+      ³  ÃÄKEYPRESS  0/163  Ram=1
+      ³  ³  ÀÄ@const775  0/8  Ram=0
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄKEYPRESS  0/163  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄKEYPRESS  0/163  Ram=1
+      ³     ÀÄ*
+      ÃÄnhapdulieu  0/14  Ram=2
+      ÃÄxuatdulieu  0/39  Ram=1
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_data  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³     ÀÄ*
+      ÃÄxoa1kitu  0/126  Ram=1
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@goto9593  0/11  Ram=0
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³     ÀÄ*
+      ÃÄxoatoanbo  0/14  Ram=0
+      ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³     ÀÄ*
+      ÃÄnhapxuatdulieu  (Inline)  Ram=0
+      ³  ÃÄPasswordCorrect  0/72  Ram=1
+      ³  ³  ÃÄMotor_start  (Inline)  Ram=0
+      ³  ³  ÃÄxoatoanbo  0/14  Ram=0
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_command  0/47  Ram=1
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_726  0/86  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄhienthithoigian  0/9  Ram=0
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄxoatoanbo  0/14  Ram=0
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄScreenMain  0/11  Ram=0
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄMotor_stop  0/5  Ram=0
+      ³  ÀÄPasswordIncorrect  (Inline)  Ram=0
+      ³     ÃÄMotor_stop  0/5  Ram=0
+      ³     ÃÄxoatoanbo  0/14  Ram=0
+      ³     ³  ÀÄ*
+      ³     ÃÄlcd_command  0/47  Ram=1
+      ³     ³  ÀÄ*
+      ³     ÀÄ@PSTRINGC7_726  0/86  Ram=4
+      ³        ÀÄ*
+      ÀÄcbvantay  (Inline)  Ram=0
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄPasswordCorrect  0/72  Ram=1
+         ³  ÀÄ*
+         ÀÄhienthithoigian  0/9  Ram=0
+            ÀÄ*
